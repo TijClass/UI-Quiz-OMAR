@@ -1,0 +1,27 @@
+.req{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:20px;
+    width:700px;
+    height:auto;
+}
+.req_box{
+    
+    border : 1px solid black;
+    width: 250px;
+    height:30px;
+    background-color: rgb(195, 10, 10);
+    color: black;
+}
+ .rect {
+    color:rgb(173, 20, 161); background-color:pink; 
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    animation: allblink 3s infinite;
+  }
+  @keyframes allblink { 
+  0% { }
+  50% { color:rgb(19, 73, 19); background-color:lightgreen; } 
+  }
